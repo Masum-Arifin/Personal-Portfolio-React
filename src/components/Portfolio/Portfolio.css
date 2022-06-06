@@ -32,6 +32,10 @@
 .portfolio-slider .swiper-slide {
   width: 20rem;
 }
+
+.portfolio .image{
+width: 19rem;
+}
 .portfolio img {
   width: 19rem;
   filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));

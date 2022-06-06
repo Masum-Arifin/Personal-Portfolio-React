@@ -2,6 +2,8 @@ import React, { useContext, useRef, useState } from "react";
 import "./Contact.css";
 import emailjs from "@emailjs/browser";
 import { themeContext } from "../../Context";
+
+
 const Contact = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -12,10 +14,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_2mu5xtl",
-        "template_m5udu2c",
+        "service_lwgiqmu",
+        "template_w7ekdjc",
         form.current,
-        "VLwg1ltOWvnCYAiK_"
+        "Q0l4cu8OJ72nzb1jk"
       )
       .then(
         (result) => {

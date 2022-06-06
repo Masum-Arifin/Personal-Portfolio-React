@@ -6,7 +6,7 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from './Resume_of Masum arifin.pdf';
+import Resume from "./Resume_of Masum.pdf";
 
 const Services = () => {
   // context
@@ -72,7 +72,7 @@ const Services = () => {
             emoji={Humble}
             heading={"UI/UX"}
             detail={
-              "Interaction Design, Visual Design, Copywriting Art Direction, User Research Usability."
+              "UI/UX Designer I am creating user friendly interfaces that helped my clients achieving their business objectives."
             }
             color="rgba(252, 166, 31, 0.45)"
           />
