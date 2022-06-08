@@ -9,7 +9,17 @@ const Footer = () => {
   return (
     <div className="footer">
       <img src={Wave} alt="" style={{ width: "100%" }} />
-    div
+    <div>
+    <div className="f-content">
+        <span>masumarifinbd@gmail.com</span>
+        <div className="f-icons">
+          <Insta color="white" size={"3rem"} />
+          <Facebook color="white" size={"3rem"} />
+          <Gitub color="white" size={"3rem"} />
+          <p></p>
+        </div>
+      </div>
+    </div>
     </div>
   );
 };
