@@ -7,30 +7,10 @@ import Ecommerce from "../../img/ecommerce.png";
 import HOC from "../../img/hoc.png";
 import MusicApp from "../../img/musicapp.png";
 import { themeContext } from "../../Context";
+
+
 const Portfolio = () => {
-  // const [width, setWidth] = useState(0)
-  // const handleWidth = () => {
-  //   if(window.screen.width > 1600){
-  //     setWidth(1600)
-  //     console.log(width);
-  //   }
-  //   else if(window.screen.width > 1200){
-  //    setWidth(1200)
-  //    console.log(width);
-  //   }
-  //   else if(window.screen.width > 800){
-  //   setWidth(800)
-  //   console.log(width);
-  //   }
-  //   else if(window.screen.width > 500){
-  //   setWidth(500)
-  //   console.log(width);
-  //   }
-  // } 
   const theme = useContext(themeContext);
-//  useEffect(() =>{
-//   handleWidth()
-//  },[width])
   const darkMode = theme.state.darkMode;
   return (
     <div className="portfolio" id="portfolio">
