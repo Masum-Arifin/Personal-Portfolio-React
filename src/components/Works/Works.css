@@ -13,6 +13,10 @@
   flex-direction: column;
   position: relative;
 }
+#skills{
+font-size: 24px;
+color: black;
+}
 
 .awesome > :nth-child(1) {
   color: var(--black);
